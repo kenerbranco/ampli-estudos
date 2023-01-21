@@ -3,6 +3,6 @@ public class App {
         
         Carro carroUm = new Carro("Punto", "Preto", 30000);
 
-        System.out.println(carroUm.modelo);
+        System.out.println(carroUm.cor);
     }
 }
