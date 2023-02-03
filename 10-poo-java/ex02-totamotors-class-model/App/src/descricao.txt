@@ -1,0 +1,5 @@
+A TotaMotors é uma montadora de automóveis que acabou de se instalar no Brasil e te contratou como um dos desenvolvedores locais em Java. Logo em sua chegada a empresa pretende fabricar todos os seus modelos no país e, para que tudo seja nacionalizado, quer construir um sistema próprio para o Brasil.
+
+A primeira missão que você recebeu foi a de estruturar uma solução para controlar dados de cor e tipo de motor que os produtos da TotaMotors terão. Apesar do pouco tempo na empresa, você sabe que os modelos produzidos são muitos e as opções de motorização e de cor variam bastante, mesmo entre modelos iguais.
+
+Para superar este desafio você deve usar recurso da orientação a objetos. A tarefa consiste em criar classes e métodos genéricos o suficiente para acomodar todas as características dos produtos da empresa.
