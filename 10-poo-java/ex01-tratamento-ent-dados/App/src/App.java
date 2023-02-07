@@ -9,10 +9,10 @@ public class App {
         do { 
 
             try {
-                Scanner entrada = new Scanner(System.in);
-                System.out.println("Informe o código do produto [0 - 200]: ");
-                codigo = entrada.nextInt();
-    
+                try (Scanner entrada = new Scanner(System.in)) {
+                    System.out.println("Informe o código do produto [0 - 200]: ");
+                    codigo = entrada.nextInt();
+                }
                 if((codigo < 0) || (codigo > 200)) {
 
                     System.out.println("Valor inválido, digite um valor entre 0 - 200!");
