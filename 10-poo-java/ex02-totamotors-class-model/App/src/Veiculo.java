@@ -22,8 +22,8 @@ public class Veiculo {
         return this.preco;
     }
 
-    // Funções POST
-    public void postAno(int ano) {
+    // Funções SET
+    public void setAno(int ano) {
         
         try {
             this.ano = ano;
@@ -35,7 +35,7 @@ public class Veiculo {
         }  
     }
 
-    public void postModelo(String modelo) {
+    public void setModelo(String modelo) {
         
         try {
             this.modelo = modelo;
@@ -47,7 +47,7 @@ public class Veiculo {
         }  
     }
 
-    public void postCor(String cor) {
+    public void setCor(String cor) {
         
         try {
             this.cor = cor;
@@ -59,7 +59,7 @@ public class Veiculo {
         }  
     }
 
-    public void postPreco(double preco) {
+    public void setPreco(double preco) {
         
         try {
             this.preco = preco;
