@@ -1,0 +1,11 @@
+*** Etapa 01 ***
+1. Declare o vetor de código da música e o vetor de quantidade de execuções, com seus tipos apropriados para . conter um código e um valor que expressa quantidade.
+2. Receba via teclado o código da música e a quantidade de execuções realizadas em um dia. Vale registrar que, quando as classes aqui criadas estiverem integradas à aplicação final, estes dados serão fornecidos por outro meio diferente da digitação.
+3. Imprima em tela o código da música e sua respectiva quantidade de execuções.
+
+*** Etapa 02 ***
+Para resolver essa situação, você deverá acrescentar à aplicação construída na aula 1 uma funcionalidade que faça a leitura e o armazenamento do nome, o gênero e o autor da música. Entretanto, antes de armazenar esses dados, eles deverão passar pelos seguintes processamentos:
+
+4. O primeiro caractere de cada nome do autor deve ser alterado para maiúsculo, caso tenha sido digitado em minúsculo.
+5. O nome da música deve ser guardado com todas as letras maiúsculas.
+6. O gênero da música deve ser guardado apenas com seu primeiro nome. Os caracteres que subsequentes a eventual espaço em branco devem ser ignorados.
